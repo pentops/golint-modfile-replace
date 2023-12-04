@@ -3,8 +3,9 @@ before:
     - go mod tidy
 builds:
   - id: modreplace
-    main:
-      ./cmd/modreplace
+    main: ./plugin/modreplace
+    buildmode: plugin
+    no_main_check: true
     binary: modreplace
   - env:
       - CGO_ENABLED=0
