@@ -1,6 +1,6 @@
 module replacecheck
 
-go 1.21
+go 1.20
 
 replace github.com/pentops/return42 => ../return42
 
