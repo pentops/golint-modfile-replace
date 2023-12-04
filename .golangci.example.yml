@@ -7,7 +7,6 @@ linters-settings:
       description: Check for replace directives in go.mod files.
       # Original-url is optional, and is only used for documentation purposes.
       original-url: github.com/pentops/golint-modfile-replace
-      settings:
 
 linters:
   disable-all: true
