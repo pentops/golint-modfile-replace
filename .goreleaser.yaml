@@ -3,7 +3,7 @@ before:
     - go mod tidy
 builds:
   - id: modreplace
-    main: ./plugin/modreplace
+    main: ./plugin/modreplace/...
     buildmode: plugin
     no_main_check: true
     binary: modreplace
