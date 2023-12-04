@@ -1,0 +1,4 @@
+# github.com/pentops/return42 v0.0.0-00010101000000-000000000000 => ../return42
+## explicit; go 1.21
+github.com/pentops/return42
+# github.com/pentops/return42 => ../return42
