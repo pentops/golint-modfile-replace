@@ -15,7 +15,7 @@ type position struct {
 }
 
 var GoModReplaceAnalyzer = &analysis.Analyzer{
-	Name: "gomodreplace",
+	Name: "modreplace",
 	Doc:  "finds replace directives in go.mod files",
 	Run:  run,
 }
